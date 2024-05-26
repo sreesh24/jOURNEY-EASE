@@ -10,12 +10,9 @@ Welcome to the JourneyEase website project! This repository contains the code fo
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
-## Demo
 
-You can see a live demo of the website [here](https://example.com).
+
 
 ## Features
 
@@ -32,7 +29,7 @@ You can see a live demo of the website [here](https://example.com).
 - **CSS3**: For styling the website.
 - **Font Awesome**: For icons.
 - **JavaScript**: For interactive features.
-- **Jinja2**: Template engine for Python used to link static files.
+- **python**.
 
 ## Installation
 
@@ -86,11 +83,4 @@ Contributions are welcome! Please follow these steps to contribute:
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
-
-## Contact
-
-
-Thank you for visiting the JourneyEase project! We hope this website makes your travel planning easier and more enjoyable.
