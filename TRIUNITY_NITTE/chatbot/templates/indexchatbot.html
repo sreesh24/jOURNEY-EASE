@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Railways Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='Chatbot.css') }}">
+</head>
+
+<body>
+    <h1>Indian Railways Chatbot</h1>
+    <div class="chat-container">
+        <ul>
+            {% for message in chatbot_history %}
+            <li class="chat-message {% if message.role == 'user' %}user-message{% else %}bot-message{% endif %}">
+                {% if message.role == 'user' %}
+                    User: {{ message.parts[0].text if message.parts[0] is mapping else message.parts[0] }}
+                {% else %}
+                    Bot: {{ message.parts[0].text if message.parts[0] is mapping else message.parts[0] }}
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <form action="/send_message" method="post">
+        <input type="text" name="message" placeholder="Type your message here..." required>
+        <button type="submit">Send</button>
+    </form>
+    <hr>
+
+    <div class="response-container">
+      
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".chat-container").scrollTop($(".chat-container")[0].scrollHeight);
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRIUNITY</title>
+    <!--===== Font Awesome =====-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!--===== Main CSS =====-->
+    <!--link rel="stylesheet" href="css/style.css"-->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+      <!--===== Navbar Start =====-->
+      <nav class="navbar">
+          <div class="container">
+              <div class="row justify-content-between">
+                  <div class="logo" style="margin-top:14px; margin-left:20px; font-size:xx-large" ><a href="index.html">JOURNEY<span>EASE</span></a></div>
+                  <div class="links">
+                  <ul class="menu">
+                      <li class="nav-item"> <span>  </span><a href="#home" class="nav-link active">Home <span></span></a></li>
+                      <!-- <li class="nav-item"><a href="#about" class="nav-link">About <span></span></a></li> -->
+                      <li class="nav-item"><a href="#services" class="nav-link">Services<span></span></a></li>
+                      <!-- <li class="nav-item"><a href="#portfolio" class="nav-link"> Station Info<span></span></a></li>
+                      <li class="nav-item"><a href="#pricing" class="nav-link">Nearby places <span></span></a></li> -->
+                      <li class="nav-item"><a href="#contact" class="nav-link">Contact <span></span></a></li>
+                      <li class="nav-item"><a href="#feedback" class="nav-link">Feedback<span></span></a></li>
+                  </ul>
+                  </div>
+                  <div class="menu-btn">
+                      <i class="fas fa-bars"></i>
+                  </div>
+              </div>
+          </div>
+      </nav>
+      <!--===== Navbar End =====-->
+      <!--===== Home Section Start =====-->
+      <section class="home-section" id="home">
+          <ul class="header-social"> <!--===== Header Social =====-->
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+          <div class="container">
+              <div class="row align-items-center">
+                  <div class="home-text">
+                    
+                      <h1>स्वागतम्</h1><br>
+                      <h2>Swagatam</h2>
+                      <p>Welcome to the jouney ease website</p>
+                           
+                  </div>
+                  <div class="home-image">
+                      <div class="img-box">
+                        <img src="{{ url_for('static', filename='images/train3.jpg') }}" alt="Your Image">
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="header-hero-shape"></div> <!--===== Hero Shape =====-->
+      </section>
+
+      <!--===== About Section End =====-->
+      <!--===== Services Section Start =====-->
+      <section class="service-section section-padding" >
+          <div class="container">
+              <div class="row">
+                <div class="section-title text-align">
+                  
+                    <h3 class="main-title">Services </h3>
+                    <ul class="line">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div> <!--===== Section Title =====-->
+              </div>
+              <div class="row">
+                   <!--===== Service Item Start =====-->
+                  <div class="service-item">
+                      <div class="service-item-inner">
+                          <div class="icon">
+                            <i class="fas fa-info-circle"></i>
+
+                          </div>
+                          <h3><b>Station Info</b></h3>
+                          <p>Retrieving station information is crucial for ensuring a smooth and efficient travel experience. By accessing accurate data on arrival and departure times</p>
+                          
+                          <button onclick="openIframeInNewTab('http://127.0.0.1:5001')">Station Information</button>
+                      </div>
+                  </div>
+                  <!--===== Service Item End =====-->
+                  <!--===== Service Item Start =====-->
+                   <div class="service-item">
+                    <div class="service-item-inner">
+                        <div class="icon">
+                            <i class="fas fa-bullhorn"></i>
+
+                        </div>
+                        <h3>Announcement</h3>
+                        <p>Announcements at the station provide essential information to passengers These timely updates help maintain smooth and efficient travel experiences for everyone.</p>
+                       
+                        <button onclick="openIframeInNewTab1('http://127.0.0.1:5002')">Announcement</button>
+                    </div>
+                </div>
+                <!--===== Service Item End =====-->
+                <!--===== Service Item Start =====-->
+                 <div class="service-item">
+                    <div class="service-item-inner">
+                        <div class="icon">
+                            <i class="fas fa-landmark"></i>
+
+                        </div>
+                        <h3>Nearby places</h3>
+                        <p>recomendation about nearby tourist places for the user to elevate their experience</p>
+                    </div>
+                </div>
+              
+
+              
+       <section class="contact-section section-padding" id="contact">
+           <div class="container">
+            <div class="row">
+                <div class="section-title text-align">
+                    
+                    <h3 class="main-title">Contact</h3>
+                    <ul class="line">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div> <!--===== Section Title =====-->
+              </div>
+              <div class="row">
+                  <!--===== contact item start =====-->
+                  <div class="contact-item">
+                      <div class="contact-item-inner">
+                          <i class="fas fa-phone"></i>
+                          <span>helpline number</span>
+                          <p>0755-3934141</p>
+                          <p>0755-6610661</p>
+                      </div>
+                  </div>
+                  <!--===== contact item end =====-->
+                  <!--===== contact item start =====-->
+                   <div class="contact-item">
+                    <div class="contact-item-inner">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email</span>
+                        <p>ddpg@sr.railnet.gov.in</p>
+                        <p>csc@cr.railnet.gov.in</p>
+                    </div>
+                </div>
+                 
+                 <div class="contact-item">
+                    <div class="contact-item-inner">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Address</span>
+                        <p>Divisional Railway Office Rd, Kempegowda, Gandhi Nagar, Bengaluru, Karnataka 560023</p>
+                    </div>
+                </div>
+                 <!--===== contact item end =====-->
+              </div>
+                 <!--===== Contact Form =====-->
+                <br>
+                 <h3 id="feeback">Services </h3>
+        <section class="gotilla" id="feedback">
+              <div class="row">
+                  <div class="contact-form" id="feedback">
+                      <form action="">
+                          <div class="row">
+                              <div class="w-50">
+                                  <div class="input-group">
+                                      <input type="text" placeholder="Name" class="input-control">
+                                  </div>
+                                  <div class="input-group">
+                                    <input type="email" placeholder="Email" class="input-control">
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" placeholder="Subject" class="input-control">
+                                </div>
+                              </div>
+                              <div class="w-50">
+                                  <div class="input-group">
+                                      <textarea name="" class="input-control" placeholder="Message" id="" cols="30" rows="10"></textarea>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="submit-btn">
+                                  <button type="submit" class="btn-1">Send Message</button>
+                              </div>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+           </div>
+    
+    </section>
+       
+      <div class="lightbox">
+          <div class="lightbox-content">
+              <div class="lightbox-close">&times;</div>
+              <img src="images/portfolio/portfolio-2.jpg" onclick="nextItem()" class="lightbox-img" alt="">
+              <div class="lightbox-caption">
+                  <div class="caption-text"></div>
+                  <div class="caption-counter"></div>
+              </div>
+          </div>
+          <div class="lightbox-controls">
+              <div class="prev-item" onclick="prevItem()"><i class="fa fa-angle-left"></i></div>
+              <div class="next-item" onclick="nextItem()"><i class="fa fa-angle-right"></i></div>
+          </div>
+      </div>
+        <script>
+        document.querySelector('.service-item1').addEventListener('click', function() {
+            window.location.href = '/chatbot';
+        });
+    </script>
+     
+    <!--script src="js/main.js"></script-->
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script>
+        function openIframeInNewTab(url) {
+            // Open the URL in a new tab
+            window.open(url, '_blank');
+        }
+    </script>
+    <script>
+    function openIframeInNewTab1(url) {
+        // Open the URL in a new tab
+        window.open(url, '_blank');
+    }
+</script> 
+
+</script>
+</body>
+</html>

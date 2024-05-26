@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Fetching App</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color:white color;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+           
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        form {
+            background-color:#00a78e;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 300px;
+            margin: 0 auto;
+            
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color:white;
+        }
+
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+           
+            color: black;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+      
+    </style>
+</head>
+<body>
+    <h1>Data Fetching App</h1>
+
+    <form method="POST" action="/fetch_data">
+        <label for="station">Select Station:</label>
+        <select name="station">
+            {% for station in stations %}
+                <option value="{{ station }}">{{ station }}</option>
+            {% endfor %}
+        </select><br>
+
+        <label for="language">Select Language:</label>
+        <select name="language">
+            {% for language in languages %}
+                <option value="{{ language }}">{{ language }}</option>
+            {% endfor %}
+        </select><br>
+
+        <input type="submit" value="Fetch Data">
+    </form>
+</body>
+</html>
