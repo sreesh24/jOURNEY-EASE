@@ -4,12 +4,13 @@ Welcome to the JourneyEase website project! This repository contains the code fo
 
 ## Table of Contents
 
-- [Demo](#demo)
+
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
+- [License](#license)
 
 
 
@@ -29,7 +30,7 @@ Welcome to the JourneyEase website project! This repository contains the code fo
 - **CSS3**: For styling the website.
 - **Font Awesome**: For icons.
 - **JavaScript**: For interactive features.
-- **python**.
+- **Python**: .
 
 ## Installation
 
@@ -83,4 +84,16 @@ Contributions are welcome! Please follow these steps to contribute:
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+## License
 
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+
+- **Email**: youremail@example.com
+- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
+- **Twitter**: [@yourtwitterhandle](https://twitter.com/yourtwitterhandle)
+
+---
+
+Thank you for visiting the JourneyEase project! We hope this website makes your travel planning easier and more enjoyable.
