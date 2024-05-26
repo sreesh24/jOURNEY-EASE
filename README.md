@@ -30,7 +30,7 @@ Welcome to the JourneyEase website project! This repository contains the code fo
 - **CSS3**: For styling the website.
 - **Font Awesome**: For icons.
 - **JavaScript**: For interactive features.
-- **Python**: 
+- **Python**
 
 ## Installation
 
