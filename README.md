@@ -30,7 +30,7 @@ Welcome to the JourneyEase website project! This repository contains the code fo
 - **CSS3**: For styling the website.
 - **Font Awesome**: For icons.
 - **JavaScript**: For interactive features.
-- **Python**: .
+- **Python**: 
 
 ## Installation
 
@@ -89,11 +89,5 @@ Contributions are welcome! Please follow these steps to contribute:
 Distributed under the MIT License. See `LICENSE` for more information.
 
 
-
-- **Email**: youremail@example.com
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-- **Twitter**: [@yourtwitterhandle](https://twitter.com/yourtwitterhandle)
-
----
 
 Thank you for visiting the JourneyEase project! We hope this website makes your travel planning easier and more enjoyable.
