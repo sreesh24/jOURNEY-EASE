@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import google.generativeai as genai
 
 # Replace with your actual API key (store securely)
-api_key = "AIzaSyA6LLyc0EMItY8dyjIx2YpdJwXajxogUVU"
+api_key = "YOUR_API_KEY"
 
 genai.configure(api_key=api_key)
 
